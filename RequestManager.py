@@ -5,7 +5,6 @@ from typing import Callable
 
 class RequestManager:
     def __init__(self, max_task : int = 5, period : float = 1.0, tasks = []):
-        print("c")
         self.keepRunning = False
         self.loopingThread = None
         self.max_task = max_task
